@@ -7,7 +7,7 @@ The notebook clones yolov3.git repo using -
 !git clone https://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@github.com/piygr/yolov3.git
 ```
 
-The repo has a models folder which contains the [YoloV3Lightning.py](https://github.com/piygr/mainErav1/blob/main/models/custom_resnet_lightning_s10.py) file containing
+The repo has a models folder which contains the [YoloV3Lightning.py](https://github.com/piygr/yolov3/blob/main/models/YoloV3Lightning.py) file containing
 **YOLOv3LightningModel** a LightningModule class.
 
 
@@ -30,6 +30,7 @@ We might have to install few packages for eg.
 
 Once the packages are installed, we have to import functionalities from main.py & utils.py
 can train & experiment with the model.
+```
 Sanity Checking: 0it [00:00, ?it/s]
 Training: 0it [00:00, ?it/s]
 Validation: 0it [00:00, ?it/s]
